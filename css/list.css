@@ -8,7 +8,7 @@ section {
 }
 
 .left {
-	float: left;
+	display: inline;
 }
 
 .clear {
@@ -70,3 +70,21 @@ img {
 	background-color: teal;
 	padding: 1rem;
 }
+
+@media (max-width: 900px) {
+	body {
+	background-color: rgba(229, 172, 103, 0.5);
+
+	}
+
+	@media (min-width: 555px) {
+	body {
+	background-color: blue;
+
+	}
+
+	@media (min-width: 800px) {
+	body {
+	background-color: lightyellow;
+
+	}
