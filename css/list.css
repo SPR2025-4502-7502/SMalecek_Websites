@@ -32,14 +32,14 @@ h1 {
 }
 
 nav {
-    background-color: red;
+    background-color: black;
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
     text-align: center;
 }
 
 footer {
-    background-color: red;
+    background-color: black;
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
     color: white;
