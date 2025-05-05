@@ -15,6 +15,26 @@
       html {
       font-family: ariel, sans-serif;
       background-color: lightblue;
+    }
+
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+}
+
+.skip-link:focus{
+  width: unset;
+  height: unset;
+  position: relative;
+  padding: unset;
+  margin: unset;
+  font-size: 4rem;
+}
   </style>
       </head>
       <nav style="text-align: center;">
@@ -40,7 +60,7 @@
           <p>Santa Rosa Beach is a charming and peaceful town sutiable for people of all ages. My friends and I were able to visit this year for Spring Break and we had an incredible time site seeing and exploring the area.</p>
           <p>From restaurants to shops, there is so much one can discover while making a visit. Here are some of the highlights from my trip in March!</p>
 
-    <div class="button_holder">
+    <div class="button_holder" class="skip-link">
       <button id="button_previous" class="button-start">&#9664; Previous</button>
       <p id="stepper"></p>
       <button id="button_next">Next &#9654;</button>
