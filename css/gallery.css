@@ -1,8 +1,4 @@
  <style>
-      html {
-      font-family: ariel, sans-serif;
-      background-color: lightblue;
-    }
 
 .skip-link {
   position: absolute;
@@ -23,3 +19,7 @@
   font-size: 4rem;
 }
   </style>
+
+  .hideThis {
+    display: none ;
+  }
