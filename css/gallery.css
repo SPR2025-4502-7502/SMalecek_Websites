@@ -1,0 +1,25 @@
+ <style>
+      html {
+      font-family: ariel, sans-serif;
+      background-color: lightblue;
+    }
+
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+}
+
+.skip-link:focus{
+  width: unset;
+  height: unset;
+  position: relative;
+  padding: unset;
+  margin: unset;
+  font-size: 4rem;
+}
+  </style>
